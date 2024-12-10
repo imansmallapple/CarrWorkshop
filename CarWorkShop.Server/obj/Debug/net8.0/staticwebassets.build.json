@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "H7mNgIpRyzlWmTmvKB294a6T+D1umjWLraorSydBQPY=",
+  "Source": "CarWorkShop.Server",
+  "BasePath": "_content/CarWorkShop.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\carworkshop.client\\carworkshop.client.esproj",
+      "Version": 2,
+      "Source": "carworkshop.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

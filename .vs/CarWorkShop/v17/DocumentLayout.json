@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF029FF-60E6-4768-8143-7AE5EA38F624}|CarWorkShop.Server\\CarWorkShop.Server.csproj|c:\\users\\alf13\\source\\repos\\carworkshop\\carworkshop.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF029FF-60E6-4768-8143-7AE5EA38F624}|CarWorkShop.Server\\CarWorkShop.Server.csproj|solutionrelative:carworkshop.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF029FF-60E6-4768-8143-7AE5EA38F624}|CarWorkShop.Server\\CarWorkShop.Server.csproj|c:\\users\\alf13\\source\\repos\\carworkshop\\carworkshop.server\\repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF029FF-60E6-4768-8143-7AE5EA38F624}|CarWorkShop.Server\\CarWorkShop.Server.csproj|solutionrelative:carworkshop.server\\repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 399,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\Program.cs",
+              "RelativeDocumentMoniker": "CarWorkShop.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\Program.cs",
+              "RelativeToolTip": "CarWorkShop.Server\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T14:31:00.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\Repository\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "CarWorkShop.Server\\Repository\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\Repository\\TicketRepository.cs",
+              "RelativeToolTip": "CarWorkShop.Server\\Repository\\TicketRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAzwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T14:27:27.575Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
