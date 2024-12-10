@@ -20,5 +20,7 @@ namespace CarWorkShop.Server.Models
         public float? ClientPaid { get; set; }
         public bool? AcceptedOrNot { get; set; }
         public List<Part> Parts { get; set; } = new List<Part>();
+        public string? AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }

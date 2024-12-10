@@ -13,14 +13,23 @@ namespace CarWorkShop.Server.Repository
             _context = context;
         }
 
-        public bool AddAsync(Part part)
+        public async Task<Part> CreateAsync(Part partModel)
         {
-            throw new NotImplementedException();
+            await _context.Parts.AddAsync(partModel);
+            await _context.SaveChangesAsync();
+            return partModel;
         }
 
-        public bool DeleteAsync(Part part)
+        public async Task<Part?> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var partModel = await _context.Parts.FirstOrDefaultAsync(x => x.Id == id);
+            if (partModel == null)
+            {
+                return null;
+            }
+            _context.Parts.Remove(partModel);
+            await _context.SaveChangesAsync();
+            return partModel;
         }
 
         public async Task<List<Part>> GetAllAsync()
@@ -33,14 +42,19 @@ namespace CarWorkShop.Server.Repository
             return await _context.Parts.FindAsync(id);
         }
 
-        public bool SaveAsync()
+        public async Task<Part?> UpdateAsync(int id, Part partModel)
         {
-            throw new NotImplementedException();
-        }
+            var existingPart = await _context.Parts.FindAsync(id);
+            if (existingPart == null)
+            {
+                return null;
+            }
+            existingPart.Amount = partModel.Amount;
+            existingPart.UnitPrice = partModel.UnitPrice;
+            existingPart.Name = partModel.Name;
 
-        public bool UpdateAsync(Part part)
-        {
-            throw new NotImplementedException();
+            await _context.SaveChangesAsync();
+            return existingPart;
         }
     }
 }

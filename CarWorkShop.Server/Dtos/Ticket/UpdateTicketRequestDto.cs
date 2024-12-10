@@ -1,4 +1,6 @@
-﻿namespace CarWorkShop.Server.Dtos.Ticket
+﻿using CarWorkShop.Data.Enum;
+
+namespace CarWorkShop.Server.Dtos.Ticket
 {
     public class UpdateTicketRequestDto
     {
@@ -7,5 +9,6 @@
         public string RegistrationId { get; set; }
         public string Description { get; set; }
         public string? EmployeeAssigned { get; set; }
+        public StateCategory StateCategory { get; set; }
     }
 }

@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\..\\carworkshop.client",
+"WorkingDirectory": "C:\\Users\\alf13\\source\\repos\\24L-EGUI-TASK-2-3-Song-Chen\\ReactVersion\\CarWorkShop.Server\\..\\carworkshop.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

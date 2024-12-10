@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\CarWorkShop.Server.csproj": {}
+    "C:\\Users\\alf13\\source\\repos\\24L-EGUI-TASK-2-3-Song-Chen\\ReactVersion\\CarWorkShop.Server\\CarWorkShop.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\CarWorkShop.Server.csproj": {
+    "C:\\Users\\alf13\\source\\repos\\24L-EGUI-TASK-2-3-Song-Chen\\ReactVersion\\CarWorkShop.Server\\CarWorkShop.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\CarWorkShop.Server.csproj",
+        "projectUniqueName": "C:\\Users\\alf13\\source\\repos\\24L-EGUI-TASK-2-3-Song-Chen\\ReactVersion\\CarWorkShop.Server\\CarWorkShop.Server.csproj",
         "projectName": "CarWorkShop.Server",
-        "projectPath": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\CarWorkShop.Server.csproj",
+        "projectPath": "C:\\Users\\alf13\\source\\repos\\24L-EGUI-TASK-2-3-Song-Chen\\ReactVersion\\CarWorkShop.Server\\CarWorkShop.Server.csproj",
         "packagesPath": "C:\\Users\\alf13\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alf13\\source\\repos\\CarWorkShop\\CarWorkShop.Server\\obj\\",
+        "outputPath": "C:\\Users\\alf13\\source\\repos\\24L-EGUI-TASK-2-3-Song-Chen\\ReactVersion\\CarWorkShop.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alf13\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -69,6 +77,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

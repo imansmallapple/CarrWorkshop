@@ -17,5 +17,24 @@ namespace CarWorkShop.Server.Mappers
                 TicketId = partModel.TicketId,
             };
         }
+        public static Part ToPartFromCreate(this CreatePartDto partDto, int ticketId)
+        {
+            return new Part
+            {
+                Name = partDto.Name,
+                Amount = partDto.Amount,
+                UnitPrice = partDto.UnitPrice,
+                TicketId = ticketId,
+            };
+        }
+        public static Part ToPartFromUpdate(this UpdatePartRequestDto partDto)
+        {
+            return new Part
+            {
+                Name = partDto.Name,
+                Amount = partDto.Amount,
+                UnitPrice = partDto.UnitPrice,
+            };
+        }
     }
 }

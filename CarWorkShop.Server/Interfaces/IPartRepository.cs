@@ -6,9 +6,8 @@ namespace CarWorkShop.Server.Interfaces
     {
         Task<List<Part>> GetAllAsync();
         Task<Part?> GetByIdAsync(int id);
-        bool AddAsync(Part part);
-        bool UpdateAsync(Part part);
-        bool DeleteAsync(Part part);
-        bool SaveAsync();
+        Task<Part> CreateAsync(Part partModel);
+        Task<Part?> UpdateAsync(int id, Part partModel);
+        Task<Part?> DeleteAsync(int id);
     }
 }

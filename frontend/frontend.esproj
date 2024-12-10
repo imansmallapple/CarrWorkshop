@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.784122">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\Components\Card\" />
+    <Folder Include="src\Components\CardList\" />
+    <Folder Include="src\Components\Portfolio\AddPortfolio\" />
+    <Folder Include="src\Components\Portfolio\ListPortfolio\" />
+    <Folder Include="src\Components\Portfolio\CardPortfolio\" />
+    <Folder Include="src\Components\Portfolio\DeletePortfolio\" />
+    <Folder Include="src\Components\Portfolio\EditPortfolio\" />
+    <Folder Include="src\Components\Search\" />
+    <Folder Include="src\Components\Sidebar\" />
+    <Folder Include="src\Components\TicketDashboard\" />
+    <Folder Include="src\Components\PartRequirement\" />
+    <Folder Include="src\Pages\TicketPage\" />
+    <Folder Include="src\Pages\SearchPage\" />
+    <Folder Include="src\Pages\HomePage\" />
+    <Folder Include="src\Pages\LoginPage\" />
+    <Folder Include="src\Pages\RegisterPage\" />
+    <Folder Include="src\Pages\EditPage\" />
+    <Folder Include="src\Routes\" />
+    <Folder Include="src\Services\" />
+    <Folder Include="src\Helpers\" />
+    <Folder Include="src\Models\" />
+    <Folder Include="src\Context\" />
+  </ItemGroup>
+</Project>
